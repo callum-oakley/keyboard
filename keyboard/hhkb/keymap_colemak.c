@@ -2,8 +2,8 @@
 
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(GRV,    1,   2,   3,   4,   5,   6,   7,   8,   9,   0,MINS, EQL,BSLS, DEL, \
-           TAB,    Q,   W,   F,   P,   G,   J,   L,   U,   Y,SCLN,LBRC,RBRC,BSPC,      \
-           LGUI,   A,   R,   S,   T,   D,   H,   N,   E,   I,   O,QUOT, ENT,           \
+           LGUI,   Q,   W,   F,   P,   G,   J,   L,   U,   Y,SCLN,LBRC,RBRC, TAB,      \
+           BSPC,   A,   R,   S,   T,   D,   H,   N,   E,   I,   O,QUOT, ENT,           \
            LSFT,   Z,   X,   C,   V,   B,   K,   M,COMM, DOT,SLSH,RSFT, ESC,           \
                 LALT,LCTL,           FN0,                RCTL,RALT),
 
