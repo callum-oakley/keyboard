@@ -8,9 +8,9 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 LALT,LCTL,           FN0,                RCTL,RALT),
 
 
-    KEYMAP(TRNS,  F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9, F10, F11, F12,TRNS,TRNS, \
+    KEYMAP(TRNS,  F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9, F10, F11, F12, F13, F14, \
            TRNS, PWR,TRNS,TRNS,PSCR,CAPS,HOME,PGDN,PGUP, END,MUTE,VOLD,VOLU,TRNS,      \
-           TRNS, F15, F16, F17, F18, F19,LEFT,DOWN,  UP,RGHT, F13, F14,TRNS,           \
+           TRNS, F15, F16, F17, F18, F19,LEFT,DOWN,  UP,RGHT, F20, F21,TRNS,           \
            TRNS,TRNS,TRNS,TRNS,TRNS, SPC, SPC,MPLY,MPRV,MNXT,PAUS,TRNS,TRNS,           \
                 TRNS,TRNS,          TRNS,               TRNS,TRNS),
 };
